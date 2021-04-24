@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -23,9 +24,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Character.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="misc.cpp" />
 		<Unit filename="misc.h" />
+		<Unit filename="src/Character.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

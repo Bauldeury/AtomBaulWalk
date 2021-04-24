@@ -1,6 +1,6 @@
 #include <iostream>
 #include "misc.h"
-
+#include "Character.h"
 using namespace std;
 
 int main()
@@ -8,10 +8,13 @@ int main()
     cout << "**********************" << endl;
     cout << "**** AtomBaulWalk ****" << endl;
     cout << "**********************" << endl;
+    //return 0;
 
-    float n = 16;
+    /*float n = 16;
     cout << TMath::Square(n)<< endl;
-    cout << n;
+    cout << n;*/
+    string pepere = "pepere";
+    Character character(pepere);
 
-    return 0;
+    character.log(); //character.name => name du type structuré character
 }

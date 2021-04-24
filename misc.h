@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-namespace TMath
+namespace TMath //commentaire ajouté dans info bulle du helper : utiliser /// au lieu de //
 {
     /// Returns a clamped number.
     int Clamp(int n, int min, int max);
