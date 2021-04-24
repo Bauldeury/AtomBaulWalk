@@ -24,6 +24,8 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
+		<Unit filename="misc.cpp" />
+		<Unit filename="misc.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

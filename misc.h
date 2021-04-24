@@ -5,15 +5,17 @@
 
 namespace TMath
 {
-    /// Constrains n value.
-    void Clamp(int& n, const int& min, const int& max);
+    /// Returns a clamped number.
+    int Clamp(int n, int min, int max);
 
+    /// Returns the square of the number.
+    float Square(float n);
 }
 
 namespace TMisc
 {
-    /// Modifies the inputed string.
-    void Capitalize(std::string& str);
+    /// Return a capitalized string
+    std::string Capitalize(std::string str);
 }
 
 #endif // MISC_H_INCLUDED

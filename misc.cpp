@@ -3,15 +3,23 @@
 
 #include <iostream>
 
-void TMath::Clamp(int& n, const int& min, const int& max)
+int TMath::Clamp(int n, int min, int max)
 {
-    if (n > max) n = max;
-    else if (n < min) n = min;
+    if (n > max) return max;
+    else if (n < min) return min;
+    else return n;
+}
+
+float TMath::Square(float n)
+{
+    return n * n;
 }
 
 
-void TMisc::Capitalize(std::string& str)
+std::string TMisc::Capitalize(std::string str)
 {
     for (int i = 0; i < str.size(); i++)
         str[i] = toupper(str[i]);
+
+    return str;
 }
